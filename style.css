@@ -5,9 +5,5 @@ body{
 
 .portada h1{
     font-size:80px;
-    justify-content:center
-}
-
-.portada p{
-    font-size:24px;
+    text-align:center;
 }
