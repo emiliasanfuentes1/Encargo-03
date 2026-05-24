@@ -5,6 +5,7 @@ body{
 
 .portada h1{
     font-size:80px;
+    justify-content:center
 }
 
 .portada p{
