@@ -1,3 +1,35 @@
+ul {
+	list-style-type: none;
+	margin: 0px;
+	overflow: hidden;
+	padding: 0px;
+	 background-image: url("fotos/fondo.jpeg");
+    background-size: 80px;
+    background-repeat: repeat;
+}
+ul li{
+	float: left;
+}
+
+ul li a {
+    display: block;
+    color: darkred;
+    background-color: #f5f0df;
+    text-align: center;
+    padding: 12px 22px;
+    margin: 10px;
+    text-decoration: none;
+
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 0px;
+
+}
+
+ul li a: hover{
+	 background-color: darkred;
+    color: #f5f0df;
+    
 body{
     margin:0;
     font-family:Arial, sans-serif;
@@ -8,6 +40,21 @@ li{
     margin:20px;
 }
 
+#myBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: darkred;
+    color: #f5f0df;
+    border: none;
+    border-radius: 100px;
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    transition: 0.3s;}
+        
 .portada{
     text-align:center;
 }
